@@ -1,0 +1,80 @@
+
+.user{
+	background: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .user-bg{
+	height: 131px;
+	border-radius: 16px;
+	background: #1538cf;
+	background-repeat: no-repeat;
+	background-image: url('https://fcw-1308447734.cos.ap-shanghai.myqcloud.com/image%2Fqq-search%2Fuser_bg.png');
+	background-size: cover;
+  }
+  
+  .user-avatar{
+	display: inline-flex;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	height: 87px;
+	width: 87px;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: -43px;
+	border: 4px solid white;
+	background: white;
+	overflow: hidden;
+  }
+  
+  .user-name{
+	color: #1B2559;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0;
+	margin-top: 10px;
+  }
+  .user-qq{
+	color: #A0AEC0;
+	font-size: 14px;
+	text-align: center;
+	line-height: 21px;
+	margin: 0;
+  }
+  
+  .user-lvzuan{
+	margin-top: 26px;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .user-lvzuan-item{
+	margin-right: 60px;
+  }
+  
+  .user-lvzuan-item:last-child{
+	margin-right: 0;
+  }
+  
+  .lvzuan-num{
+	line-height: 36px;
+	font-size: 24px;
+	color: #1B2559;
+	margin: 0;
+	text-align: center;
+  }
+  
+  .lvzuan-name{
+	line-height: 21px;
+	color: #A0AEC0;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+  }
+  
+  
