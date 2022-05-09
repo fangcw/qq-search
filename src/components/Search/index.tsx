@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { debounce } from '../../utils/tools'
 import "./index.css"
 
 interface InputProps {
@@ -18,9 +19,13 @@ const Search: React.FC<InputProps> = (props) => {
         setValue(value)
     }
 
-    const handleSearch = () => {
+    const _handleSearch = debounce(() => {
         if (!value) return
         onSearch(value)
+    }, 200)
+
+    const handleSearch = () => {
+        _handleSearch()
     }
 
     return (
